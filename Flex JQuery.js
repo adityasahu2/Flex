@@ -101,4 +101,19 @@ $(document).ready(function() {
     $("#AC11").click(function() {
         $(".boxes").css("align-content","normal")
     })
+    $("#G1").click(function() {
+        $(".boxes").css("gap","10px")
+    })
+    $("#G2").click(function() {
+        $(".boxes").css("gap","20px 0px")
+    })
+    $("#G3").click(function() {
+        $(".boxes").css("gap","0px 10px")
+    })
+    $("#G4").click(function() {
+        $(".boxes").css("gap","20px 10px")
+    })
+    $("#G5").click(function() {
+        $(".boxes").css("gap","0px 0px")
+    })
 })

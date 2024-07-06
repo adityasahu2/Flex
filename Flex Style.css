@@ -59,3 +59,21 @@ button:hover{
     flex-wrap: wrap;
     justify-content: center;
 }
+.grow > div{
+    flex-grow: 1;
+}
+#growbox{
+    flex-grow: 2;
+}
+.shrink > div{
+    flex-shrink: 1;
+}
+#shrinkbox{
+    flex-shrink: 2;
+}
+#up{
+    align-self: flex-start;
+}
+#down{
+    align-self: flex-end;
+}
